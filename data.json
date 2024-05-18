@@ -3,14 +3,14 @@
         "en":{
             "about me": {
                 "name":"Anta",
-                "sub_description":"Student in software engineering",
+                "sub description":"Student in software engineering",
                 "description":"Hi I'm Anta, currently a student in software engineering and a Vtuber.\n As a true french person, I love the smell of the baguettes, and croissants"
             }
         },
         "fr": {
             "about me": {
                 "name":"Anta",
-                "sub_description":"Étudiant en ingénierie logicielle",
+                "sub description":"Étudiant en ingénierie logicielle",
                 "description":"Salut ! Mon nom est Anta, je suis un étudiant en ingénierie logicielle et un Vtuber amateur.\nBoire de l'eau est ma passion et mon seul but dans la vie"
             }
         }
