@@ -1,3 +1,5 @@
+const data_url = 'https://antarti.fr/data.json';
+
 function set_inner_html(html_element, inner_html)
 {
     html_element.innerHTML = inner_html;
@@ -24,7 +26,7 @@ async function set_translation(language) {
     const sub_description_HTML = about_me_HTML.getElementsByClassName("sub_description")[0];
     const description_HTML = about_me_HTML.getElementsByClassName("description")[0];
 
-    const data = await fetch_data('https://antarti/data.json');
+    const data = await fetch_data(data_url);
     let data_language = data.text.en
     let data_about_me = data_language["about me"];
 
