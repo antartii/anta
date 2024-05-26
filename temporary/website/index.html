@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty Rescue</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="clouds"></div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home" id="home-link" class="active">Home</a></li>
+            <li><a href="#game" id="game-link">Game</a></li>
+            <li><a href="#download" id="download-link">Download</a></li>
+            <li><a href="#contact" id="contact-link">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content" id="home">
+        <h1 class="title">Kitty Rescue</h1>
+    </div>
+    <div class="content" id="game">
+        <h1 class="title">Game</h1>
+    </div>
+    <div class="content" id="download">
+        <h1 class="title">Download</h1>
+        <a class="download-button" href="https://github.com/EpitechPromo2028/B-MUL-200-BDX-2-1-myrpg-aline.nguyen">Download Now</a>
+    </div>
+    <div class="content" id="contact">
+        <h1 class="title">Contact</h1>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Kitty Rescue. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
